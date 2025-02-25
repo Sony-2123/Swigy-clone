@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Clone</title>
+    <style>
+      
+       
+        header {
+            
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+           
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+    button{
+        border-radius: 30px;
+        width: 90px;
+        height: 30px;
+        color: red;
+        background-color: aqua;
+    }
+    img{
+    width: 100PX;
+    height: 100px;
+}
+#list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#cat {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.reslist {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.res {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.res img {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+ 
+.res-but {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            color: aqua; 
+             border-radius: 30px;
+    
+        }
+        .res-but button {
+         
+            background:red;
+          color:aqua;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 300px;
+            height: 40px;
+        }
+
+.city button {
+    background-color: #fc8019;
+ width: 300px;
+ height: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Swiggy Clone</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Restaurants</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Offers</a>
+            <a href="#">Help</a>
+            <a href="#">Sign In</a>
+            <a href="#">Cart</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sec">
+            <h1>Order Food Online from Your Favorite Restaurants</h1>
+            <p>Fast delivery, great food, and amazing offers. Get your food delivered in minutes</p>
+         
+    <center>   <button class="button">Order Now</button></center>
+        </div>
+    </div>
+  
+    <h1>   <h2>What's on your mind?</h2></h1>
+    <div >
+<div id="list">
+    <div><img src="https://pipingpotcurry.com/wp-content/uploads/2024/04/Chicken-Biryani-Piping-Pot-Curry.jpg" >
+        <center>Biryani</center></div>
+        <div ><img src="https://imgmediagumlet.lbb.in/media/2024/12/6763c390ad5b133601d57eed_1734591376530.jpg" ><center>South Indian</center></div>
+        <div ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8v6THIvqohQA7KjVBBcraG2DTbjroMybcsg&s"><center>Burger</center></div>
+        <div ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLFcEE6yUZtfkqkFl8yI8yr48j0oDovo1_Xw&s" alt=""><center>Pizza</center></div>
+        <div ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFo-XbzN-6TqvxevXOh_ykx0dmd-AjaZLRdQ&s" alt="">
+            <center>Chinese</center></div>
+        <div ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT92mS0CNhvdkqT1k-5K7QbmuJdJnKhMiY_kg&s" alt=""><center>Shawarma</center></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnta8t9pEO-pKNrm1OKyqhiLB4VW7lnIIPyg&s" alt=""><center>Idli</center></div>
+        <div> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGgTGDbJN2WtqTl5qpNc1DCUfjkirSNXc82g&s" alt=""><center>Ice Cream</center></div>
+   
+</div>
+</div>
+
+
+<div class="res">
+    <h2>Top restaurant chains in Hyderabad</h2>
+    <div class="reslist">
+        <div class="res">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/5/61555/c8008523810583087401ff292c1763a3.jpg?fit=around|960:500&crop=960:500;*,*" alt="Burger King">
+            <p><strong>Burger King</strong><br>4.1 | 25-30 mins<br>Burgers, American</p>
+        </div>
+        <div class="res">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/3d/36/a0/fresh-hand-stretched.jpg" alt="Pizza Hut">
+            <p><strong>Pizza Hut</strong><br>4.0 | 25-30 mins<br>Pizzas</p>
+        </div>
+        <div class="rest">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxF7OXlB9tlWlJOxAlrvUVyLTwNaPwBQJ-w&s" alt="Kinara Grand">
+            <p><strong>Kinara Grand</strong><br>4.4 | 25-30 mins<br>Biryani, North Indian</p>
+        </div>
+        <div class="rest">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy79fiaNrXV1LMVk76qOaZXJXvVgt3oXP3cA&s" alt="Fries">
+            <p><strong>Fries</strong><br>4.4 | 25-30 mins<br>Biryani, North Indian</p>
+        </div><br>
+        <div class="rest">
+            <img src="https://popmenucloud.com/nmhtjfre/e5fbc682-acb4-4a37-b7c5-069bf88e80ba" alt="Steakhouse">
+            <h3>Steakhouse</h3>
+            <p>4.5  | 30-40 mins <br>Biryani, North Indian
+            </p>
+        </div>
+        <div class="rest">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbKXLQ1jGT88lg1QUobiNpvdf8-rQ3QIzlQQ&s" alt="Ramen Spot">
+            <h3>Ramen Spot</h3>
+            <p>4.3  | 25-35 mins <br>Biryani, North Indian</p>
+        </div>
+        <div class="rest">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/27/60/24/soft-and-crispy-taco.jpg" alt="Taco Fiesta">
+            <h3>Taco Fiesta</h3>
+            <p>4.2  | 20-30 mins <br>Biryani, North Indian</p>
+        </div>
+        <div class="rest">
+            <img src="https://www.shutterstock.com/image-photo/assortment-baked-sweet-treats-including-260nw-1314046952.jpg" alt="Sweet Treats">
+            <h3>Sweet Treats</h3>
+            <p>4.6 | 30-45 mins <br>Biryani, North Indian</p>
+        </div>
+
+
+    </div>
+
+
+    <h2>Best Places to Eat Across Cities</h2>
+    <div class="city">
+        <button>Best Restaurants in Bangalore</button>
+        <button>Best Restaurants in Pune</button>
+        <button>Best Restaurants in Mumbai</button>
+        <button>Best Restaurants in Delhi</button>
+        <button>Best Restaurants in Hyderabad</button>
+    </div>
+
+
+    <h2>Best Places to Eat Across Cities</h2>
+    <div class="res-but">
+        <button>Best Restaurants in Bangalore</button>
+        <button>Best Restaurants in Pune</button>
+        <button>Best Restaurants in Mumbai</button>
+        <button>Best Restaurants in Delhi</button>
+        <button>Best Restaurants in Hyderabad</button>
+        <button>Best Restaurants in Kolkata</button>
+        <button>Best Restaurants in Chennai</button>
+        <button>Best Restaurants in Chandigarh</button>
+        <button>Best Restaurants in Ahmedabad</button>
+        <button>Best Restaurants in Jaipur</button>
+        <button>Best Restaurants in Nagpur</button>
+        <button>Best Restaurants Show More</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
